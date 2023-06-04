@@ -22,4 +22,5 @@
 |---**TWCC**
         ...
 
-![](https://github.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/assets/file_structure.png)
+<img src="https://raw.githubusercontent.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/master/assets/file_structure.png" width="560" height="256">
+
