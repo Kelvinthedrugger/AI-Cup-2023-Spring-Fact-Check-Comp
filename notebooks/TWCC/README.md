@@ -1,8 +1,3 @@
-### check list
-
-[ ] pre-trained weight for sentence transformers: check this (for bi-encoder ones) when checking the files
-
-
 ## Setup
 
 It is recommend to 'pip install gdown' for fetching the processed data
