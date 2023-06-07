@@ -62,8 +62,6 @@ tips:
 
 #### if load pre-trained model in Sentence-Transformer failed: use the following script
 
-our pre-trained model of Sentence-Transformer is in ???
-
 ```python
 # if load bi_encoder not succeessful, use below code
 
