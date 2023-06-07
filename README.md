@@ -2,29 +2,13 @@
 
 ## File structure
 
-// TODO: put file tree here using commands like 'tree'
-
-// 粗體的是folder
-
-**excalidraw_pics**
-
-    if one uses pics drawn with excalidraw, put the pics there
-
-    to make sure that .md files can render normally
-
-
-**notebooks**
-
-|---**google colab**
-        ...
-        will just be a README.md with link to files in it?
-
-|---**TWCC**
-        ...
-
 <img src="https://raw.githubusercontent.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/master/assets/file_structure.png" width="560" height="256">
 
-## Installation
+## On browsing the codes
+
+see the **notebooks** folder for details.
+
+## Installation libraries
 
 Most of the used libraries are pre-installed in google colab and TWCC (台智雲)
 
