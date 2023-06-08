@@ -43,3 +43,12 @@ pip -q install transformers==4.27.1
 ### search thru wikipedia
 pip -q install wikipedia==1.4.0
 ```
+
+## 使用簡介
+
+任務目標：以wikipedia文件做為事實資料庫，判斷使用者輸入的Claims為真(supports)，偽(refutes)或資訊不足(Not Enough Info)
+
+模型架構：
+1. 事實提取：使用官方提供的baseline code part 2 (BERT-based model)，Top-K設為64，並取出前五高分的證據句
+2. 判斷真偽：使用SBERT的Cross-Encoder (nli-deberta-base)做training
+3. 重現結果流程與重要模塊輸出：詳見 **notebooks** 資料夾
