@@ -39,3 +39,13 @@ the resulting files of the above notebook:
 
 - [ ] do_the_embedding.ipynb
 
+## 重現結果：
+
+我們的模型分為兩個部分：BERT-based model和Cross-Encoder (nli-deberta-base)
+
+1. 請先執行[Cross_plus_baseline_64_0316_0522_with_private.ipynb](https://github.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/blob/master/notebooks/Cross_plus_baseline_64_0316_0522_with_private.ipynb)
+2. 執行完後會生成三個文件：train_doc64sent64.jsonl, dev_doc64sent64.jsonl, test_doc64sent64.jsonl
+3. 再執行[Truth_Detection_For_Report.ipynb](https://github.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/blob/master/notebooks/TWCC/Truth_Detection_For_Report.ipynb)
+4. 若是不想重新訓練，可以直接下載我們pre-trained weights：
+   a. Cross_plus_baseline_64_0316_0522_with_private.ipynb model weight: with_0522__model.248.pt (which is in [cross_plus_baseline_stuff/checkpoints/sent_retrieval/](https://drive.google.com/drive/folders/1-CcS70WlE96ArDEHCxrqNHXiNEXG7TT7?usp=sharing) )
+   b. Truth_Detection_For_Report.ipynb model weight: 
