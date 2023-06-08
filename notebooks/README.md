@@ -47,5 +47,5 @@ the resulting files of the above notebook:
 2. 執行完後會生成三個文件：train_doc64sent64.jsonl, dev_doc64sent64.jsonl, test_doc64sent64.jsonl
 3. 再執行[Truth_Detection_For_Report.ipynb](https://github.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/blob/master/notebooks/TWCC/Truth_Detection_For_Report.ipynb)
 4. 若是不想重新訓練，可以直接下載我們pre-trained weights：
-   a. Cross_plus_baseline_64_0316_0522_with_private.ipynb model weight: with_0522__model.248.pt (which is in [cross_plus_baseline_stuff/checkpoints/sent_retrieval/](https://drive.google.com/drive/folders/1-CcS70WlE96ArDEHCxrqNHXiNEXG7TT7?usp=sharing) )
-   b. Truth_Detection_For_Report.ipynb model weight: 
+   * Cross_plus_baseline_64_0316_0522_with_private.ipynb model weight: with_0522__model.248.pt (which is in [cross_plus_baseline_stuff/checkpoints/sent_retrieval/](https://drive.google.com/drive/folders/1-CcS70WlE96ArDEHCxrqNHXiNEXG7TT7?usp=sharing) )
+   * Truth_Detection_For_Report.ipynb model weight: [PleaseBeUseful2_Model.zip](https://drive.google.com/u/4/uc?id=1-eOGzJj5wDhC2qDv8XIoCo79AL3-QJ94&export=download)
