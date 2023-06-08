@@ -7,9 +7,11 @@ Truth_Detection_For_Report.ipynb: Cross-Encoder implementation.
 
 others in TWCC: our attempt to produce better data to train the Cross-Encoder. they're attempts and not our final submission.
 
-### google colab
+### code that's developed on google colab 
 
-- [x] basically, just the train_doc64_sent64 one: it's [Cross_plus_baseline_64_0316_0522_with_private.ipynb](https://github.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/blob/master/notebooks/Cross_plus_baseline_64_0316_0522_with_private.ipynb)
+note that some of the 'cp' commands are just for the authors to preserve the result, so don't panic if an error is throwed
+
+- [x] basically, just the train_doc64_sent64 one: it's [Cross_plus_baseline_64_0316_0522_with_private.ipynb](https://github.com/Kelvinthedrugger/AI-Cup-2023-Spring-Fact-Check-Comp/blob/master/notebooks/Cross_plus_baseline_64_0316_0522_with_private.ipynb) (the 'develop on colab' one)
 
 the resulting files of the above notebook:
 * model weight: with_0522__model.248.pt (which is in [cross_plus_baseline_stuff/checkpoints/sent_retrieval/](https://drive.google.com/drive/folders/1-CcS70WlE96ArDEHCxrqNHXiNEXG7TT7?usp=sharing) )
@@ -33,7 +35,7 @@ the resulting files of the above notebook:
 
 - [ ] Bi_encoder_try_multilingual_cased.ipynb
 
-- [ ] Cross_plus_baseline_64_0316_0522_with_private.ipynb 
+- [ ] Cross_plus_baseline_64_0316_0522_with_private.ipynb (which is different from the .ipynb file with the same name above)
 
 - [ ] bi_encoder_with_test_embed_not_train_test_split.ipynb
 
