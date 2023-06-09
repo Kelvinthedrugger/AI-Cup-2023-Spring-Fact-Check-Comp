@@ -8,7 +8,7 @@
 
 see the **notebooks** folder for details.
 
-## Installation libraries
+## Install the libraries
 
 Most of the used libraries are pre-installed in google colab and TWCC (台智雲)
 
@@ -52,3 +52,34 @@ pip -q install wikipedia==1.4.0
 1. 事實提取：使用官方提供的baseline code part 2 (BERT-based model)，Top-K設為64，並取出前五高分的證據句
 2. 判斷真偽：使用SBERT的Cross-Encoder (nli-deberta-base)做training
 3. 重現結果流程與重要模塊輸出：詳見 **notebooks** 資料夾
+
+## Citation
+
+[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084):
+
+```bibtex 
+@inproceedings{reimers-2019-sentence-bert,
+    title = "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    author = "Reimers, Nils and Gurevych, Iryna",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+    month = "11",
+    year = "2019",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/abs/1908.10084",
+}
+```
+
+[Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](https://arxiv.org/abs/2004.09813):
+
+```bibtex
+@inproceedings{reimers-2020-multilingual-sentence-bert,
+    title = "Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation",
+    author = "Reimers, Nils and Gurevych, Iryna",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+    month = "11",
+    year = "2020",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/abs/2004.09813",
+}
+```
+
